@@ -14,7 +14,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             text-align: center;
         }
         h1, h2 {
@@ -30,6 +29,22 @@
         .content {
             padding: 20px;
             max-width: 800px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .gallery img {
+            max-width: 250px;
+            width: 100%;
         }
     </style>
 </head>
@@ -68,6 +83,8 @@
             <img src="/images/1.jpg" alt="Agastya Samat Headshot">
             <img src="/images/2.jpg" alt="Agastya with a Colleague">
             <img src="/images/3.jpeg" alt="Agastya Speaking">
+        </div>
+    </section>
 
     <p>Feel free to explore more and reach out if you'd like to connect!</p>
 </div>
